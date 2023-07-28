@@ -1,0 +1,27 @@
+body {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20201105/pngtree-brick-wall-background-image_451265.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.floor {
+  border: 2px solid black;
+  margin: 2% 0;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.buttonMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

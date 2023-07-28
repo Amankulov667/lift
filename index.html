@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lift</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <span>5 этаж</span>
+        <div class="floor fl5"></div>
+        <div class="buttonMenu">
+          <div class="bot5"><button>Bot5</button></div>
+      <button id="bgnBtn" onclick="promptMe()">Выберите этаж</button>
+
+  
+          <!-- <div class="reset4"><button>Reset</button></div> -->
+        </div>
+
+    <div class="container">
+      <span>4 этаж</span>
+      <div class="floor fl4"></div>
+      <div class="buttonMenu">
+        <div class="top4"><button>Top4</button></div>
+        <div class="bot4"><button>Bot4</button></div>
+      <button id="bgnBtn" onclick="promptMe()">Выберите этаж</button>
+
+
+        <!-- <div class="reset4"><button>Reset</button></div> -->
+      </div>
+      <span>3 этаж</span>
+      <div class="floor fl3"></div>
+      <div class="buttonMenu">
+        <div class="top3"><button>Top3</button></div>
+        <div class="bot3"><button>Bot3</button></div>
+      <button id="bgnBtn" onclick="promptMe()">Выберите этаж</button>
+
+
+        <!-- <div class="reset3"><button>Reset</button></div> -->
+      </div>
+      <span>2 этаж</span>
+      <div class="floor" id="fl2"></div>
+      <div class="buttonMenu">
+        <div class="top2"><button>Top2</button></div>
+        <div class="bot2"><button>Bot2</button></div>
+      <button id="bgnBtn" onclick="promptMe()">Выберите этаж</button>
+
+
+        <!-- <div class="reset2"><button>Reset</button></div> -->
+      </div>
+      <span>1 этаж</span>
+      <div class="floor fl1">
+        <div
+          class="lift"
+          style="
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 10%;
+            transition: all 1.2s;
+          "
+        >
+          <!-- <div class="door1"></div>
+          <div class="door2"></div> -->
+          <img src="https://cdn.icon-icons.com/icons2/2303/PNG/512/elevator_hotel_icon_141816.png" alt="photo">
+        </div>
+      </div>
+    </div>
+    <div class="buttonMenu" style="margin-top: -5px">
+      <div class="top"><button>Top1</button></div>
+      <button id="bgnBtn" onclick="promptMe()">Выберите этаж</button>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
